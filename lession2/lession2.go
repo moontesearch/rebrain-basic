@@ -5,22 +5,17 @@ import (
 	"strconv"
 )
 
+var (
+	A = "104"
+	B = 35
+)
+
 func AtoiItoa() {
-	var (
-		a   string = "104"
-		aa  int
-		b   int = 35
-		bb  string
-		err error
-	)
 
-	aa, err = strconv.Atoi(a)
-	if err != nil {
-		panic("a != int")
-	}
-	fmt.Printf("%T", aa)
+	a, _ := strconv.Atoi(A)
+	fmt.Printf("strconv.Atoi() - string in int: %T\n", a)
 
-	strconv.Itoa(b)
-	fmt.Printf("%T", bb)
+	b := strconv.Itoa(B)
+	fmt.Printf("strconv.Atoi() - int in string: %T\n", b)
 
 }
