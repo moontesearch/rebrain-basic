@@ -9,7 +9,7 @@ var (
 
 func Lession3() {
 	A = &B
-	fmt.Printf("%d", *A)
+	fmt.Printf("%d\n", *A)
 	*A = 5
-	fmt.Printf("%d", B)
+	fmt.Printf("%d\n", B)
 }

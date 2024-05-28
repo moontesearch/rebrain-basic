@@ -7,4 +7,5 @@ import (
 
 func FTime() {
 	fmt.Println(time.Now())
+	fmt.Print("\n")
 }

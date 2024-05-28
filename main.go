@@ -7,6 +7,7 @@ import (
 	"github.com/moontesearch/rebrain-basic/lession2"
 	"github.com/moontesearch/rebrain-basic/lession2/lession21"
 	"github.com/moontesearch/rebrain-basic/lession3"
+	"github.com/moontesearch/rebrain-basic/lession4"
 )
 
 func main() {
@@ -19,4 +20,6 @@ func main() {
 	fmt.Println("Lession 3.1 pointer, * and &")
 	lession3.Radius()
 	lession3.Lession3()
+	fmt.Println("Lession 4. slices package, slices.Clip(), slices.Delete()")
+	lession4.SliceEdit()
 }
