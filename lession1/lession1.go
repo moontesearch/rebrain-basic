@@ -1,10 +1,10 @@
-package main
+package lession1
 
 import (
 	"fmt"
 	"time"
 )
 
-func main() {
+func fTime() {
 	fmt.Println(time.Now())
 }
