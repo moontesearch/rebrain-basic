@@ -5,6 +5,6 @@ import (
 	"time"
 )
 
-func fTime() {
+func FTime() {
 	fmt.Println(time.Now())
 }
